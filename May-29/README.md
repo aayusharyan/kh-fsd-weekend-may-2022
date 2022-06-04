@@ -257,3 +257,31 @@ Example:
 m = 4
 n = 7
 -> 4*4*4*4*4*4*4 = 16384
+
+m and n.
+3 and 4
+
+3*3*3*3 = 81
+
+2 and 5
+2*2*2*2*2 = 32
+
+
+5 divided by 2
+
+2.5
+2 times 2 + 1 as remainder.
+
+
+Soln (Q3).
+
+GET m
+GET n
+LET counter as 1
+LET product as 1
+WHILE counter <= n
+    LET product as product * m
+    INCREMENT counter by 1
+ENDWHILE
+DISPLAY product
+END
