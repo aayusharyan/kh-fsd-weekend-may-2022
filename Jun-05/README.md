@@ -153,3 +153,33 @@ $ says that the terminal is present. (We are inside a Shell)
 -> printenv
 -> ps
 -> kill
+
+
+Assignment
+Task 1 -> Check whether the given string is palindrome or not.
+<- abcdcba
+-> Yes
+<- abcd
+-> No
+<- racecar
+-> Yes
+<- mother
+-> No
+<- mom
+-> yes
+
+Task 2 -> Take an array of strings. Print the string of maximum length
+<- ["Gurpreet", "Aayush", "Sam", "Ishmael", "Pawan"]
+-> "Gurpreet"
+
+Task 3 -> You have to take a number and check whether it is an armstrong number or not.
+-> sum of each digit raised to the power of n should be the number.
+
+<- 153
+-> Yes
+<- 1634
+-> Yes
+<- 1
+-> Yes
+<- 3
+-> Yes

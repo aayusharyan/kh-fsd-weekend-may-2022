@@ -348,3 +348,15 @@ Task -> Take some numbers from the user and output the maximum number.
 -> 20
 <- [-1, -5, -7, -20]
 -> -1
+
+
+1. DISPLAY "Enter the numbers"
+2. GET num_arr
+3. LET max as first element of the num_arr
+4. FOR elem as every element of num_arr
+    a. IF elem > max THEN
+        i. LET max as elem
+    b. ENDIF
+5. ENDFOR
+6. DISPLAY max
+7. DISPLAY "Task Completed"
