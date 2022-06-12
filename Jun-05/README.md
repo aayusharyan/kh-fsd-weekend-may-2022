@@ -140,19 +140,8 @@ $ says that the terminal is present. (We are inside a Shell)
 --> You are going into admin mode.
 --> Every time we run sudo, it will ask for password.
 
-
-
-
--> nano
--> vim (vi improved)
--> grep / find / locate
--> apt-get install / apt-get update / apt-get remove
--> cal
--> sudo (Super User permissions)
--> Environment Variables
--> printenv
--> ps
--> kill
+## cal
+--> Print the calendar
 
 
 Assignment
