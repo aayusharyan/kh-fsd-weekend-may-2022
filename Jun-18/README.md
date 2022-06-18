@@ -70,9 +70,42 @@ Container Tags.
 - This is used to explain what the code is doing
 - The machine NEVER reads this.
 
+- We are running HTML5.3
+- Major change was HTML5 (around 2014-2015).
+- Various input types were introduced in HTML5 (such as, email, url, date, time, etc. etc).
+- center and marquee were deprecated. Strike tag was deprecated.
+
+### select and option
+- This shows a dropdown to the user containing various options from which the user can select
+- optgroup -> This allows us to organize and put various options together into multiple groups.
+
+### textarea
+- this allows the user to enter multi-line inputs. This is a coupled tag. (This has a separate closing).
+- This tag cares about the spacing.
+
+### form
+- This is the container for the inputs.
+- with the action attribute, we tell the browser where to send the data.
+- This will perform the validation and everything.
+
+
 <!-- sd
 dgdfg
 dfg
 dfg
 dfg
 hfkjfhsdkf -->
+
+
+http://127.0.0.1:5501/Jun-18/backend.html?fname=Aayu&lname=Sinha
+http://127.0.0.1:5501/Jun-18/backend.html?fname=Aayu&lname=Sinha&hobbies=cricket&hobbies=e-sports
+http://127.0.0.1:5501/Jun-18/backend.html?fname=Aayu&lname=Sinha
+http://127.0.0.1:5501/Jun-18/backend.html?fname=sdfsf&lname=sfds&gender=m
+
+
+
+
+- Git hosting
+- Branches / Forking
+- Git Pull
+- VS Code Cloning

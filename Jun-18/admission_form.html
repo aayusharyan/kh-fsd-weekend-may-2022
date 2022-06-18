@@ -1,1 +1,113 @@
 <!-- Create an admission form for your college -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8"/>
+  </head>
+
+  <body>
+    <center>
+      <h1 style="color: red;"><strike>Admission Form 🏫</strike></h1>
+      <marquee style="color: red;">This is a scolling text || Admissions Open || Last Date - July-01 || Fill Now || Limited seats only</marquee>
+      <div style="background-color: lightgrey;">
+        <br/>
+        <form action="./backend.html">
+          <p>Personal Information 🧑🏻‍🎓</p>
+          <input type="text" placeholder="First Name" name="fname" required/>
+          <input type="text" placeholder="Last Name" name="lname" required/>
+          <br/>
+          <input type="number" placeholder="Phone Number" required/>
+          <input type="email" placeholder="Email Address"/>
+          <br/>
+          <br/>
+          <p>Educational Information 📚</p>
+          <input type="text" placeholder="School Name"/>
+          <input type="number" placeholder="School Marks"/>
+          <br/>
+          <span>Graduation Date
+          </span>
+          <input type="month"/>
+          <br/>
+          <br/>
+          <p>Address Information 🗺️</p>
+          <input type="text" placeholder="House Number"/>
+          <input type="text" placeholder="Locality"/>
+          <br/>
+          <input type="text" placeholder="City"/>
+          <input type="text" placeholder="State"/>
+          <br/>
+          <input type="text" placeholder="Country"/>
+          <input type="number" placeholder="ZIP Code"/>
+          <br/>
+          <br/>
+          <p>Hobbies and Interests</p>
+          <input type="checkbox" name="hobbies" value="cricket"/>
+          <span>Cricket</span>
+          <br/>
+          <input type="checkbox" name="hobbies" value="badminton"/>
+          <span>Badminton</span>
+          <br/>
+          <input type="checkbox" name="hobbies" value="swimming"/>
+          <span>Swimming</span>
+          <br/>
+          <input type="checkbox" name="hobbies" value="e-sports"/>
+          <span>E-Sports</span>
+          <br/>
+          <input type="checkbox" name="hobbies" value="tennis"/>
+          <span>Tennis</span>
+          <br/>
+          <br/>
+          <p>Gender</p>
+          <br/>
+          <input type="radio" name="gender" value="m"/>
+          <span>Male</span>
+          <br/>
+          <input type="radio" name="gender" value="f"/>
+          <span>Female</span>
+          <br/>
+          <input type="radio" name="gender" value="o"/>
+          <span>Other</span>
+          <br/>
+          <br/>
+
+
+          <select name="country">
+            <optgroup label="America">
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="mexico">Mexico</option>
+            </optgroup>
+            <optgroup label="Asia">
+              <option value="malaysia">Malaysia</option>
+              <option value="india">India</option>
+              <option value="sinagapore">Singapore</option>
+            </optgroup>
+          </select>
+
+          <br/>
+          <br />
+          <textarea name="address" placeholder="Enter Address" rows="7" cols="50" disabled>
+            kjhsfkjlhsd
+
+
+
+            jfhkshfkld</textarea>
+          <br/>
+
+
+          <input type="checkbox" required/>
+          <span>
+            I accept the
+            <span style="color: red;">terms and conditions</span>.
+          </span>
+          <br/>
+          <br/>
+          <input type="submit" style="background-color: lightgreen;"/>
+          <input type="reset"/>
+        </form>
+        <br/>
+      </div>
+    </center>
+  </body>
+</html>
