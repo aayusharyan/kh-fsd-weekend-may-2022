@@ -1,0 +1,34 @@
+h3 {
+  text-align: center;
+}
+
+body {
+  background-color: beige;
+}
+
+div {
+  background-color: white;
+  border-width: 1px;
+  border-color: red;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+[required] {
+  background-color: lightpink;
+}
+
+input {
+  display: block;
+  width: 90%;
+  border: none;
+}
+
+button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: gray;
+  color: white;
+  border: none;
+}

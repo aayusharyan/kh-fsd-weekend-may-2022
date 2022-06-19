@@ -1,0 +1,45 @@
+body {
+  color: black;
+  background-color: aqua;
+}
+
+
+form {
+  background-color: yellow;
+}
+
+input {
+  background-color: inherit;
+}
+
+[type] {
+  background-color: red;
+}
+
+[type=email] {
+  background-color: blue;
+}
+
+.color-red {
+  color: red;
+}
+
+/* .bg-green {
+  background-color: green;
+} */
+
+
+/* 
+sdfsjdhf
+sdkfhkjsfk
+khsdjkfhjsdf
+kjhskfjhsdhfkhsjdkf
+*/
+
+#element_sixth {
+  color: orange;
+}
+
+* {
+  font-size: x-small;
+}
