@@ -1,0 +1,59 @@
+h3 {
+  text-align: center;
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+input {
+  background-color: inherit;
+}
+
+.d-none {
+  display: none;
+}
+
+/*
+  display: block;
+  display: inline;
+*/
+
+h3 {
+  background-color: aqua;
+  width: 100px;
+  display: inline-block;
+}
+
+span {
+  background-color: aquamarine;
+  width: 1000px;
+}
+
+.square {
+  height: 0px;
+  width: 0px;
+  display: inline-block;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent;
+  border-left-width: 50px;
+  border-bottom-color: red;
+}
+
+body {
+  /* background-color: rgb(255, 255, 255); */
+  /* background-color: rgb(50, 250, 179); */
+
+  /* background-color: #32FAB3; */
+  background-color: #A98467;
+}
+
+.good-font {
+  
+}
