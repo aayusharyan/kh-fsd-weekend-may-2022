@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 h3 {
   text-align: center;
 }
@@ -55,5 +57,28 @@ body {
 }
 
 .good-font {
-  
+  /* font-family: cursive; */
+  /* font-family:'Courier New', Courier, monospace; */
+  /* font-family: 'Rubik Moonrocks', cursive; */
+  background-color: white;
+  font-size: 10px;
+  border-width: 1em;
+  border-color: black;
+  border-style: solid;
+}
+
+.parent {
+  font-size: 1000px;
+  margin-top: 200px;
+  background-color: aquamarine;
+}
+
+.padding-btn {
+  padding-inline-start: 5px;
+  padding: 20px;
+  padding: 0px;
+}
+
+.margin-btn {
+  margin: 80px;
 }

@@ -45,11 +45,59 @@ RGB [0-255], [0-255], [0-255]
 - Hex is made up to 6 characters. [2-red][2-green][2-blue].
 - To use hex, we use #<6 character hex code>.
 
+## fonts
+- font-family -> A family of multiple styles of a font.
+- We can import from google fonts (fonts.google.com).
+- Difference between serif font family and sans-serif font family
+- In serif, we have (sharp) edges around the letters whereas in sans-serif, we don't have those.
 
-- fonts (font-size)
+## font-size -
+- Change the size of any text.
+
+## Units of measurement
+- These are used to measure distance, size, spacing, etc etc. Absolute unit is pixel.
+
+## pixel
+- 1 single dot that can be individually controlled by a screen.
+
+## em
+- This is a relative unit of measurement, this is defined by setting from the computer (system).
+- It allows cuatomization and we can set what 1em is equal to. em will pick the value from it's nearest ancestor that have the font-size set.
+
+## rem 
+- This is also a relative unit of measurement. This allows us to relate to root em.
+- em on the other hand will relate to the nearest element with the font-size property.
+
+
+## Box Model
+- Any element is made up of a box.
+- That box is made up of 4 things.
+- content -> The actual content.
+- padding -> The space between your border and the content (space INSDE the element).
+- border -> Boundary of the element.
+- margin -> The space OUTSIDE of the element.
+
+
+## output
+- cosole.log("Data");
+
+## Creating a variable
+- let <variable_name> = <variable_value>;
+
+## Task 1:
+-> Take 2 variables, say 10 and 25.
+Assign their sum to another variable.
+ Print the sum
+
+## Task 2:
+-> Take 3 variables, and print average of that.
+
+
+
+
+
+
 - positon (+ z-index)
-- pixel
-- box model -
 - HTML Entities
 - display: flex
 - opacity (rgba)
