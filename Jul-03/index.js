@@ -71,3 +71,24 @@ session_information.hello = function () {
 // button_2.innerText = "Updated button 2";
 // button_2.style.backgroundColor = "#00FFFF";
 // console.log(button_2.innerText);
+
+// let some_elements = document.getElementsByClassName("text");
+// console.log(some_elements);
+
+// let all_buttons = document.getElementsByTagName("button");
+// console.log(all_buttons);
+
+// document.getElementsByName("");
+
+// document.querySelector("[att=name]");
+// document.querySelectorAll("")
+
+// let elements = document.querySelectorAll("*");
+// console.log(elements);
+
+function check_password() {
+  let pass_inputs = document.getElementsByName("password");
+  // console.log(pass_inputs[0]);
+  let pass = pass_inputs[0].value;
+  console.log(pass);
+}
