@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* height: 90px; */
+  /* justify-content: space-evenly; */
+  height: 550px;
+  background-color: aqua;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.flex-child {
+  background-color: red;
+  /* margin: 5px; */
+  width: 30px;
+}
