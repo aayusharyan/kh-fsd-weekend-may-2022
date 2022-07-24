@@ -93,19 +93,6 @@ setTimeout(function() {
 - Bundling of data members and member functions together in an object.
 
 
-
-
-
-
-### Abstraction
-
-### Inheritance
-
-### Polymorphism
-#### Function Overrriding
-#### Function Overloading
-
-
 ## Prototype
 - The object which contains all the functionality of your class.
 - This can be accessed by the __proto__ property of any object.
@@ -119,22 +106,3 @@ setTimeout(function() {
 - let arr = [1, 2, 3, 4];
 - arr.check(5); //return false;
 - arr.check(3); //return true;
-
-## Arrow function vs Regular Anonymous functions wrt the this keyword.
-
-
-## Prototype chaining
-
-
-## favicon
-
-## threads
-
-## Math.random
-
-## BOM
-
-
-## console
-
-Asynchronous Programming
