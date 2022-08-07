@@ -48,11 +48,6 @@
 # Task: Fetch some data and show it in the App.
 
 
-
-### filter
-### reduce
-
-
 **In JS, ! means NOT. != means not equal.**
 
 ### Task A:

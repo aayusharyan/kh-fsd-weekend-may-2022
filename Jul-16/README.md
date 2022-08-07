@@ -19,9 +19,6 @@ splice
 
 arr.splice(<index>, <delete_count>, <new_elements>);
 
-indexOf
-lstIndexOf
-
 
 forEach
 
