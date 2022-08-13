@@ -128,8 +128,3 @@ body {
 - Use this API.
 - https://reqres.in/api/users
 - Create a table of users from this response.
-
-
-
-
-# Virtual DOM

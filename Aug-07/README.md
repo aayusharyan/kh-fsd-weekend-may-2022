@@ -118,11 +118,6 @@
 - when we invoke the useState, we give the default value what need for that state. It returns an array which we can simply destructure.
 - The 0th element contains the state and the 1st element contains the setState function that we call whenever we need to update the state value.
 
-
-### useEffect
-
-
-
 ## Stateful Component vs Stateless Component
 - Any component using state is stateful.
 - Any component not using state is stateless.

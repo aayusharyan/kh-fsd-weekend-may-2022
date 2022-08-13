@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+  --black: #000814;
+  --dark-blue: #001D3D;
+  --blue: #003566;
+  --dark-yellow: #FFC300;
+  --yellow: #FFD60A;
+}
+
+body {
+  background-color: var(--yellow);
+}
+
+header {
+  background-color: var(--dark-yellow);
+  padding: 5px;
+  text-align: center;
+}
