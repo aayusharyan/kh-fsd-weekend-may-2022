@@ -86,7 +86,7 @@ before ES6, there was only var.
 ES6 introduced the concept of blocked scoping (let & const);
 
 
-### Template Literal / Literal Strings
+### Template Literal / Literal Strings / String Templating
 - Allow easy addition of JS variables into a sting.
 - No need of tracking the quotation marks and the concatenation + symbol.
 - syntax, use `` for the string and ${} for the variables.
