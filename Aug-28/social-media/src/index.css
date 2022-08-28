@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --light: #E5E5E5;
+  --blue: #14213D;
+  --yellow: #FCA311;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  background-color: var(--light);
+}
+
+nav {
+  background-color: var(--white);
+  color: var(--yellow);
+  height: 25px;
+  padding: 5px;
+}
+
+nav h4 {
+  display: inline;
+}
+
+nav span {
+  float: right;
+  margin-right: 5px;
+}
+
+section {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.post-container div {
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: var(--blue);
+  transition: all 0.25s linear;
+}
+
+.post-container a {
+  text-decoration: none;
+}
+
+.post-container div:hover {
+  background-color: var(--yellow);
+}
+
+.post-detail, .user-detail {
+  margin-top: 1rem;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.comments-container {
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}

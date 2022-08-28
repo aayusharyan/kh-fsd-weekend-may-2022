@@ -45,31 +45,11 @@
 - This typically uses some sort of state variable.
 - For the condition, this uses ternary. It is possible that this uses more than 1 ternary operators in nested format.
 
-## React Router
-- https://reactrouter.com/en/main
-- npm install react-router-dom@6
 
-## Anatomy of a URL
-
-## Query Parameters
-## Path Parameters
-
-## Redux
-
-## NodeJS
-
-
-## Optional Chaning
-
-## defer
-
----
-## Shadow DOM
-## URL Structuring
-## Advanced CSS
-## Query Params vs Path Params
-## React Router
-## Redux
-## Writing your own hook
-
-- nodemon - backend
+### Task:
+- Create a personal website using React Router. Add 3 pages.
+  - Homepage
+  - About me page
+  - Contact me page.
+- Upload it on netlify.
+- Add some information about you on the website.
