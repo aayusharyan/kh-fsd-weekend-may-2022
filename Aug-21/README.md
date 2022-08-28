@@ -41,7 +41,7 @@
 - This is typically a self closing tag.
 
 
-## HOF (This is for JS)
+## HOF (This is for JS) (Higher Order Function)
 - Any function that accepts another function as it's parameter is a higher order function.
 - Typically, these are the functions which accept a callback functions.
 - We send callback to these functions.
@@ -51,7 +51,7 @@
 - Example: setInterval(() => { console.log("ABCD") }, 1000);
 
 
-## FOF
+## FOF (First Order Function)
 - This is a function which does NOT accept any other function.
 - It can accept other data types and everything else, but NOT a callback function.
 - Math.random(), Math.max(), Math.min, Array.reverse(), console.log.
@@ -59,7 +59,7 @@
 - Example: console.log(() => { alert("ABCD"); });
 
 
-## FCF
+## FCF (First Class Function)
 - Any function referenced in a varible, is a first class function.
 - It can be an arrow function or a regular function expression. Anything, but it should be assigned to a variable.
 - Examples:
@@ -133,11 +133,6 @@
 - This is for efficiency purposes.
 
 
-## Virtual DOM
-## SPA
-
-
-
 # Tasks:
 1. Write a polyfill for Math.max
 - Basically, create your own function which does the same.
@@ -145,20 +140,3 @@
 
 2. Refactor the gallery app.
 - For every image, instead of using div, we should use the Higher Order Component.
-
-
-
-## Optional Chaning
-
-## defer
-
----
-## Shadow DOM
-## URL Structuring
-## Advanced CSS
-## Query Params vs Path Params
-## React Router
-## Redux
-## Writing your own hook
-
-- nodemon - backend
