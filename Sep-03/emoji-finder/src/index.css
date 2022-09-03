@@ -1,0 +1,18 @@
+body {
+  background-color: #EEEEEE;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr, td, th {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+tbody tr:hover {
+  background-color: lightgray;
+}
