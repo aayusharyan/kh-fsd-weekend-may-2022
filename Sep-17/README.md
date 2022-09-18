@@ -91,34 +91,7 @@
 })
 
 
-
-
-- cors
-
-
-## Middleware
-
-
-
 ## Client Server Architecture
 - Client makes a request to the server.
 - Server will process that.
 - Server will send response back to client.
-
-
-
-- Integration of React and Node.
-
-
-## Optional Chaning
-
-## defer
-
----
-## Shadow DOM
-## URL Structuring
-## Advanced CSS
-## Query Params vs Path Params
-## React Router
-## Redux
-## Writing your own hook
