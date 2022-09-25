@@ -50,10 +50,30 @@
   - We have all the numbers. We want to show the total sum of that.
   - We write the aggregate function. Even though we have only 1 record, we still need to group it.
 
-- Aggregation
-  - Sum
-  - Average
+- In order to use the aggregation, we use collection.aggregate. This method accepts an array of aggregation functions. The reason that is because this is a pipeline of functions. Each of these aggregation function is an object.
 
+### $group
+- When we reduce multiple rows into a single row with an aggregation, we need to define certain condition if data needs to be grouped together, maybe we want population per state. That would have a grouping function.
+- In order to achieve that, for the _id key of the group, we give the property which needs to be grouped on.
+- Then the aggregation function will be executed for each group separately.
+- If we do not want any sort of grouping, we can give _id as null (commonly used) but technically any string as well.
+
+**Note: To refer to keys in mongoDB, we use `$keyName`.**
+
+### $sum
+- This is used to calculate the sum of the given key.
+
+### $avg
+- This calculates the average of a given key.
+
+### $count
+- This is for number of records. This is different than the sum function.
+
+### $limit
+- This is like limiting the number of records that needs to be returned.
+
+### $sort
+- Implementing sort functionality. Here to say ascending, we use the number 1. For descending, we use the number -1.
 
 ## Mini Project
 - Mini Voting Application
@@ -70,43 +90,3 @@
 
 # Task:
 - Complete the Mini Project.
-
-
-# NodeJS
-## Middleware 
-## REST API
-
-# ReactJS
-## Writing your own hook
-
-# JS
-## Optional Chaning
-## defer
-## Shadow DOM
-
-# Working on Project (Practice) - Simple Social Media
-- Tuesday - Oct/27 (Usual Class timings - 2hr)
-- Friday - Oct/30 (Usual Class timings - 2hr)
-
-
-## Software Development LifeCycles
-- Agile
-- Waterfall
-- V Model
-- Kanban
-- Hybrid
-
-# Testing
-- Software Testing
-- What is software Testing
-- Types of Software Testing (Strategies)
-  - Unit Testing
-  - Integration Testing
-  - Monkey Testing
-  - Manual Testing / Automated Testing
-  - Validation Testing
-  - Load Testing
-  - E2E Testing
-- Coding
-  - Puppeteer (Frontend)
-  - JEST (Backend)

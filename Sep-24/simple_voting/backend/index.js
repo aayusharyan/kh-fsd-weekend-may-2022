@@ -94,3 +94,11 @@ app.get("/result", (_, res) => {
     });
   })
 });
+
+app.delete("/reset", (_, res) => {
+  const collection = client.db("sep_24").collection("election");
+  const result = collection.deleteMany({});
+  result.then(_ => {
+    res.send("Deleted Successfully");
+  });
+})

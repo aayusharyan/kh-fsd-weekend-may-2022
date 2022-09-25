@@ -24,6 +24,15 @@ function App() {
     const response = await axios.get("http://localhost:3007/result");
     setWinner(response.data.data[0]);
   }
+
+  const resetAll = async _ => {
+    const response = window.confirm("Are you sure you want to reset the data?");
+    if(response) {
+      await axios.delete("http://localhost:3007/reset");
+      getStats();
+      setWinner({});
+    }
+  }
   
   return (
     <div className="App">
@@ -40,6 +49,9 @@ function App() {
         <br />
         <br />
         <Winner data={winner} getData={getResult} />
+        <br />
+        <br />
+        <button style={{backgroundColor: "red", border: "none", color: "white"}} onClick={resetAll}>Reset Data</button>
       </header>
     </div>
   );
