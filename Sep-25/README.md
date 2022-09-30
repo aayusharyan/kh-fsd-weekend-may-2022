@@ -179,20 +179,19 @@
 - The website / web server should be able to handle those many concurrent users.
 
 
+### E2E Testing - End to End Testing
+- This is complete testing, we test in a single testcse multiple steps from the very start to the very end.
+- Example: (Social Media Website):
+  - User Registration
+  - Usesr posting a picture
+  - User commenting on own picture.
+  - User liking the own picture.
+  - Change password.
+  - Delete account.
+  - User logout.
 
 
-  - E2E Testing
-- Coding
-  - Puppeteer (Frontend)
-  - JEST (Backend)
-
-
-
-# JS
-## Optional Chaning
-## defer
-## Shadow DOM
-
+- It is possible for a single testcase to fall under multiple testing strategies.
 
 
 ### Further Reading:
@@ -203,5 +202,5 @@
 
 
 # Working on Project (Practice) - Simple Social Media
-- Tuesday - Oct/27 (Usual Class timings - 2hr)
+- Tuesday - Oct/27 (Usual Class timings - 4hr)
 - Friday - Oct/30 (Usual Class timings - 2hr)
